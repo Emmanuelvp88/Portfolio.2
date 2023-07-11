@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
+    list-style: none;
     outline: none;
     font-family: 'Poppins', sans-serif;
 }
@@ -18,9 +19,11 @@ html{
     font-size: 62.5%;
     overflow: hidden;
 }
-body{
-    
+.links-bar{
+    display: flex;
+    justify-content: space-between;
 }
-a{
-    
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
 }
