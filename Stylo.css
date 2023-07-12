@@ -22,9 +22,9 @@ html{
 nav{
     background-color: var(--second-bg-color);
     height: 4em;
-    padding: 10px;
+    /* padding: 10px; */
 }
-.nav-bar{
+/* .nav-bar{
     display: flex;
     justify-content: space-between;
     width: 95%;
@@ -44,4 +44,19 @@ nav{
 .icons-bar>li{
     margin-left: 10px;
     
+} */
+.nav-bar{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr 2fr 1fr);
+    /* grid-template-rows: ; */
+    align-items: center;
+    justify-items: center;
+}
+.links-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.icons-bar{
+    display: flex;
+    justify-content: space-between;
 }
