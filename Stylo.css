@@ -19,19 +19,29 @@ html{
     font-size: 62.5%;
     overflow: hidden;
 }
+nav{
+    background-color: var(--second-bg-color);
+    height: 4em;
+    padding: 10px;
+}
 .nav-bar{
     display: flex;
     justify-content: space-between;
-}
-.links{
-    display: flex;
-    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
 }
 .links-bar{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    justify-content: space-between;
+    width: 60%;
 }
 .icons-bar{
     display: flex;
-    justify-content: space-between;
+    width: 20%;
+    justify-content: center;
+}
+.icons-bar>li{
+    margin-left: 10px;
+    
 }
