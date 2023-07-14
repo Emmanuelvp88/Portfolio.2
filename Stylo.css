@@ -21,12 +21,13 @@
 html {
     font-size: 62.5%;
     overflow: hidden;
+}
+body{
     background-color: var(--bg-color);
     color: var(--text-color);
 }
 
 nav {
-    /* background-color: var(--second-bg-color); */
     height: 4em;
     padding: 10px;
 }
@@ -43,22 +44,18 @@ section {
     margin: 0 auto;
 }
 
-.links-bar {
+.link-bar {
     display: flex;
     justify-content: space-between;
     width: 60%;
 }
 
-.icons-bar {
+.icon-bar {
     display: flex;
     width: 20%;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-.icons-bar>li {
-    margin-left: 10px;
-
-}
 .home{
     display: flex;
     align-items: center;
