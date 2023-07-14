@@ -69,7 +69,10 @@ section {
     width: 20%;
     justify-content: space-evenly;
 }
-
+.link-bar a:hover, 
+.link-bar .active{
+    color: var(--main-color);
+}
 
 
 
