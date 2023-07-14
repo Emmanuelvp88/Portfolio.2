@@ -26,35 +26,44 @@ html {
 nav {
     background-color: var(--second-bg-color);
     height: 4em;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
-/* .nav-bar{
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.bar-content {
     display: flex;
     justify-content: space-between;
     width: 95%;
     margin: 0 auto;
 }
-.links-bar{
+
+.links-bar {
     display: flex;
-    justify-content: center;
     justify-content: space-between;
     width: 60%;
 }
-.icons-bar{
+
+.icons-bar {
     display: flex;
     width: 20%;
     justify-content: center;
 }
-.icons-bar>li{
+
+.icons-bar>li {
     margin-left: 10px;
-    
-} */
-.nav-bar {
+
+}
+
+
+/* .bar-content {
     display: grid;
     grid-template-columns: repeat(1, .4fr 4fr 1fr);
     grid-template-rows: auto;
-    /* height: 4em; */
+    height: 4em;
     align-items: center;
     text-align: center;
 }
@@ -67,4 +76,4 @@ nav {
 .icons-bar {
     display: flex;
     justify-content: space-around;
-}
+} */
