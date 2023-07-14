@@ -26,16 +26,28 @@ body{
     background-color: var(--bg-color);
     color: var(--text-color);
 }
-
-nav {
-    height: 4em;
-    padding: 10px;
-}
-
 section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: yellowgreen;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* z-index: 100; */
+}
+
+.nav {
+    height: 4em;
+    padding: 10px;
+}
+
 
 .bar-content {
     display: flex;
