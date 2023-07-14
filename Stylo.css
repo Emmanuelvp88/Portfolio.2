@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,21 +10,25 @@
     outline: none;
     font-family: 'Poppins', sans-serif;
 }
-:root{
+
+:root {
     --bg-color: #081b29;
     --second-bg-color: #11e443;
-    --text-color:var(--bg-color)#ededed;
+    --text-color: var(--bg-color)#ededed;
     --main-color: #00abf0;
 }
-html{
+
+html {
     font-size: 62.5%;
     overflow: hidden;
 }
-nav{
+
+nav {
     background-color: var(--second-bg-color);
     height: 4em;
     /* padding: 10px; */
 }
+
 /* .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -45,20 +50,21 @@ nav{
     margin-left: 10px;
     
 } */
-.nav-bar{
+.nav-bar {
     display: grid;
-    grid-template-columns: repeat(1, .5fr 4fr 1fr);
-    height: 4em;
-    align-content: center;
+    grid-template-columns: repeat(1, .4fr 4fr 1fr);
+    grid-template-rows: auto;
+    /* height: 4em; */
     align-items: center;
     text-align: center;
 }
 
-.links-bar{
+.links-bar {
     display: flex;
     justify-content: space-around;
 }
-.icons-bar{
+
+.icons-bar {
     display: flex;
     justify-content: space-around;
 }
