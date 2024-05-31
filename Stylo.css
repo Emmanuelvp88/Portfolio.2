@@ -12,10 +12,10 @@
 }
 
 :root {
-    --bg-color: #081b29;
-    --second-bg-color: #112e42;
-    --text-color: #ededed;
-    --main-color: #00abf0;
+    --body-color: #03091e;
+    --nav-color: #121f3d;
+    --bottom-color: #00f7ff;
+    --semi-blanco: #efefef;
 }
 
 html {
@@ -24,11 +24,12 @@ html {
 }
 
 body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background-color: var(--body-color);
+    color: var(--semi-blanco);
 }
-a{
-    color: var(--text-color);
+
+a {
+    color: var(--semi-blanco);
 }
 
 section {
@@ -42,8 +43,8 @@ section {
     left: 0;
     width: 100%;
     padding: 1rem 5%;
-    background: yellowgreen;
-    z-index: 100; 
+    background: var(--nav-color);
+    z-index: 100;
 }
 
 .logo-bar {
@@ -69,8 +70,9 @@ section {
     width: 20%;
     justify-content: space-evenly;
 }
-.link-bar a:hover, 
-.link-bar .active{
+
+.link-bar a:hover,
+.link-bar .active {
     color: var(--main-color);
 }
 
